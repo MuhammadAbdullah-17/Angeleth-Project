@@ -18,12 +18,10 @@ html {
     content: "\A";
     width: 10px;
     height: 10px;
-    text-align: center;
     position: absolute;
     border-radius: 50%;
-    margin-left: 2%;
     background: #E7AB0D;
-    display: block;
+    display: block;;
 }
 
 .hbg
@@ -82,6 +80,10 @@ input{
 {
     margin-left: 70%;    
 }
+.pf{
+    text-align: left;
+}
+
 .serb .btn
 {
     border: 1px solid #7866D4;
@@ -112,7 +114,8 @@ input{
 }
 .fpsecond
 {
-    margin-left: 80%;
+    text-align: right;
+    color: white;
 }
 
 .block
