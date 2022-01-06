@@ -1,0 +1,204 @@
+*
+{
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.main{
+    background-color: #2a2b57;
+}
+.active:hover::after
+{
+    content: "\A";
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 2%;
+    background: #E7AB0D;
+    display: block;
+}
+
+.hbg
+{
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navb
+{
+    background-color: #443E8a;
+}
+
+.navbar-nav .nav-link
+{
+    padding-top: 25px;
+    text-align: center;
+    color: white !important;
+}
+.navbar-collapse
+{
+    flex-grow: 0 !important;
+}
+.hop
+{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 17px;
+}
+
+.abtn
+{
+    color: black;
+    font-size: 5px;
+}
+
+input{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    border-bottom: 1px solid white !important;
+}
+.conlines
+{
+    border-left:1px solid white;
+}
+.conb
+{
+    margin-left: 70%;    
+}
+.serb .btn
+{
+    border: 1px solid #7866D4;
+}
+.serb .btn:hover
+{
+    background-color: #7866D4;
+    border: transparent;
+}
+.parah2
+{
+    display: none;
+}
+.parah3
+{
+    display: none;
+}
+#em{
+    width: 91%;
+}
+#ln
+{
+    width: 45%;
+}
+#fn
+{
+    width: 45%;
+}
+.fpsecond
+{
+    margin-left: 80%;
+}
+
+.block
+{
+    background-color: #7866d4;
+    height: 450px;
+    border-radius: 10px;
+}
+
+@media (max-width: 576px) 
+{
+   .limg img
+    { 
+       margin-top: 20px !important;
+       margin-left: 0px;
+    }
+    .abimg img
+    {
+        height: 180px;
+        width: 280px;
+        margin-left: 20px;
+
+    }
+    .serimg img{
+        height:240px;
+        width:260px;
+        margin-left: 20px;
+    }
+    .fh
+    {
+        width: 100%;
+    }
+    .conb
+    {
+        margin-left: 60%;
+    }
+
+    .abimg2 img
+    {
+        height: 180px;
+        width: 280px;
+    }
+}
+@media (min-width: 991px) 
+{
+    .navb
+    {
+        background-color: transparent;
+    }
+    
+
+}
+@media (max-width: 768px) 
+{
+    .navb
+    {
+        background-color: transparent;
+    }
+    .btn
+    {
+        margin-bottom: 17px;
+    }
+    .conlines
+    {
+        margin-left: 10px;
+    }
+    .fpsecond 
+    {
+        margin-left: 0%;
+    }
+    .abimg img{
+        text-align: center;
+    }
+
+}
+@media (max-width: 991px) 
+{
+    .hdata img
+    {
+        height: 250px;
+        width: 300px;
+    }
+    .conb
+    {
+        margin-left: 60%;
+    }
+}
+
+

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://use.fontawesome.com/513e375ed5.js"></script>
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+
+
+
+  <title>Angeleth</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="bg-image hbg" style="background-image: url('./imgs/bgPic.png'); height: 100vh;">
+      <nav class="navbar navbar-expand-lg navbar-light position-sticky">
+        <div class="container limg">
+          <img src="./imgs/logo.png" alt="Logo image" class="col-md-3 col-sm-4 col-6 col-lg-2 my-sm-4 my-md-4">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa fa-bars" style="color: white; font-size: x-large;" aria-hidden="true"></i>
+          </button>
+          <div class="collapse navbar-collapse navb px-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item mb-3">
+                <a class="nav-link active" href="#contact"><button
+                    class="btn btn-warning rounded-pill pb-2 text-white">CONTACT</button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="row hdata">
+        <div data-aos="fade-right" data-aos-duration="1000" class=" col-12 col-sm-12 col-md-6 m-md-4 p-md-5 m-3 p-4 col-lg-6">
+          <p class="text-white mx-auto hop">Decentralization <br> Economy & <br> Cryptocurrency</p>
+          <button class="btn btn-lg btn-warning rounded-pill text-white text-center">START TODAY</button>
+        </div>
+        <img data-aos="fade-left" data-aos-duration="1000" class="col-12 col-sm-12 col-md-4 mx-auto mt-5" src="./imgs/p1.png" alt="homepage image">
+      </div>
+    </div>
+    <!-- About Page    -->
+    <div class="container" id="about">
+      <div class="amain row mt-5 pt-5">
+        <div data-aos="fade-right" data-aos-duration="1000" class=" abimgt abimg col-sm-12 col-md-6 col-12 col-lg-6">
+          <img src="./imgs/Aboutpage.svg" alt="about image" height="340px" width="380px">
+        </div>
+        <div data-aos="fade-left" data-aos-duration="1000" class="mt-4 abp abpt col-md-6 col-lg-6 col-sm-12 col-12 text-justify">
+          <h2 class=" fw-bolder text-white ab overflow-hidden">ABOUT US</h2>
+          <p class="text-white-50">Angeleth is one of those Blockchain-centric private firms that is bound to
+            provide its clients with the best resources to make smart money, crypto
+            success, and the best digital currency project. As Blockchain investors, we
+            believe in working with smart people with smart choices. A person who
+            comes up with a great business idea is like a gem to us, and we put in
+            extreme efforts to make their dreams come true. Our teams work hard and
+            provide unbiased information and the necessary guidance and support that
+            a client may need to make his/her business idea work.</p>
+          <button class="btn btn-lg btn-warning rounded-pill text-white text-center"><a href="./about.html" class="link"> READ MORE</a></button>
+
+        </div>
+      </div>
+    </div>
+    <!-- Services Page    -->
+    <div class="ser container mt-5" id="services">
+      <div data-aos="fade-left" class="serb row mx-5 justify-content-center">
+        <button type="button" class="btn btn-outline-primary text-white-50 col-md-3 mx-3 col-sm-12 col-12 text-center"
+          onclick="para1()">Venture Capital</button>
+        <button type="button" class="btn btn-outline-primary text-white-50 col-md-3 mx-3 col-sm-12 col-12"
+          onclick="para2()">Incubation
+          Consulting</button>
+        <button type="button" class="btn btn-outline-primary text-white-50 col-md-3 mx-3 col-sm-12 col-12"
+          onclick="para3()">Technology
+          Development</button>
+      </div>
+      <div data-aos="fade-left" class=" row mt-5 pt-5">
+        <div class="serh col-sm-12 col-md-6 col-12 col-lg-6 text-justify">
+          <h2 class="parah1 fw-bolder text-white overflow-hidden">Venture Capital</h2>
+          <h2 class="parah2 fw-bolder text-white overflow-hidden">Incubation Consulting</h2>
+          <h2 class="parah3 fw-bolder text-white overflow-hidden">Technology Development</h2>
+          <p class="text-white-50 text-justify">Our management and investment teams are extremely professional and
+            experienced, and they enable Angeleth to provide the best possible venture capital projects to their
+            clients, available in the Blockchain and Crypto industry. Our commitment towards the development and
+            promotion of Blockchain startup teams stays strong throughout the process.</p>
+        </div>
+        <div data-aos="fade-right" class="serimg col-md-6 col-lg-6 col-sm-12 col-12 text-sm-center ">
+          <img src="./imgs/services.png" alt="about image" height="310px" width="340px">
+        </div>
+      </div>
+    </div>
+    <!--Contact Page -->
+    <div class="container" id="contact">
+      <div class="row">
+      <div data-aos="fade-up" class="conh row text-center mt-5 col-12 col-md-12 col-lg-12">
+        <h2 class="overflow-hidden text-white fw-bolder">GET IN TOUCH</h2>
+      </div>
+      <div data-aos="fade-left" class="conh row mt-5 col-12 col-md-12 col-lg-12">
+        <h1 class="overflow-hidden text-white fw-bolder">Fill the Form. <br> It's Easy. </h1>
+      </div>
+      <div data-aos="fade-left" class="form mt-5 col-md-6 col-lg-6 col-sm-12 col-12">
+        <input class="fh" id="fn" type="text" placeholder="First Name">
+        <input class="fh" id="ln" type="text" placeholder="Last Name">
+        <br>
+        <input class="fh" id="em" type="text" placeholder="Email" class="d-block">
+        <button class="btn conb mt-5 btn-lg btn-warning rounded-pill text-white text-center">SUBMIT</button>
+      </div>
+      <div data-aos="fade-right" class="conlines mt-5 col-md-6 col-lg-6 col-sm-12 col-12">
+        <h3 class="overflow-hidden text-white">Got A Project?</h3>
+        <p class=" text-white">Angeleth is one of those Blockchain-centric private firms that is bound to provide its clients with the best resources to make smart money, crypto success, and the best digital currency project.</p>
+      </div>
+    </div>
+    </div>
+    <!--Footer    -->
+      <div data-aos="fade-top" class="fbg mt-4" style="background-image: url('./imgs/footer.png');">
+        <div class="text-center mt-5 col-12 col-md-12 col-sm-12 mx-auto">
+          <img class="" src="/imgs/logo.png" alt="logo" height="60px" width="130px">
+        </div>
+        <div class="container">
+        <div class="row text-white mt-5">
+          <p class="col-12 col-md-6 fpfirst">Copyright ©️ All Rights Reserved. </p>
+          <p class="col-12 col-md-6 fpsecond ">Follow Us On   <i class="fa fa-facebook-official" style=" color: blue; font-size: x-large;" aria-hidden="true"></i></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+    <!--Javascript-->
+<script>
+  AOS.init();
+
+  const parah1 = document.querySelector(".parah1");
+  const parah2 = document.querySelector(".parah2");
+  const parah3 = document.querySelector(".parah3");
+
+
+  function para1() {
+    parah1.style.display = "block";
+    parah2.style.display = "none";
+    parah3.style.display = "none";
+  }
+  function para2() {
+    parah1.style.display = "none";
+    parah2.style.display = "block";
+    parah3.style.display = "none";
+  }
+  function para3() {
+    parah1.style.display = "none";
+    parah2.style.display = "none";
+    parah3.style.display = "block";
+  }
+</script>
+
+</html>
